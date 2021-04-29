@@ -61,25 +61,25 @@
 
 //construtores
 
-function Person(name) {
-    this.name = name
-    this.walk = function(){
-        return this.name + 'está andando'
-    }
-}
-const titio = new Person('Titio')
-console.log(titio.walk)
-const myke = new Person('Myke')
-console.log(myke.walk)
+// function Person(name) {
+//     this.name = name
+//     this.walk = function(){
+//         return this.name + 'está andando'
+//     }
+// }
+// const titio = new Person('Titio')
+// console.log(titio.walk)
+// const myke = new Person('Myke')
+// console.log(myke.walk)
 
-function Person(name){
-    this.name = name
-    this.walk = function(){
-        return this.name + ' esta andando'
-    }
-}
+// function Person(name){
+//     this.name = name
+//     this.walk = function(){
+//         return this.name + ' esta andando'
+//     }
+// }
 
-const titio = new Person('Titio')
-console.log(titio.walk())
-const manoel = new Person('Manoel')
-console.log(manoel.walk())
+// const titio = new Person('Titio')
+// console.log(titio.walk())
+// const manoel = new Person('Manoel')
+// console.log(manoel.walk())
