@@ -1,8 +1,8 @@
-export function Post(props){
+export function Post(props) {
     return (
-    <div>
-        <strong>{props.author}</strong>
-        <p>Post</p>
-    </div>
+        <div>
+            <strong>{props.author}
+            </strong><p>{props.content}</p>
+        </div>
     )
 }

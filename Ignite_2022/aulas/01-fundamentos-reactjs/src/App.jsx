@@ -1,16 +1,16 @@
-import { Post } from './Post';
+import {Post} from './Post'
 
 export function App() {
   return (
-    <div>
-      <Post 
-        author="Ragner Alves" 
-        content="Text text text tex"
-      />
-      <Post 
-        author="Titio Alves" 
-        content="Text21 text21 text21 tex12"
-      />
-    </div>
+  <div>
+    <Post 
+      author="Ragner ALves"
+      content="Dev"
+    />
+    <Post 
+      author="Titio"
+      content="Novo post muito legal"
+    />
+  </div>
   )
 }
