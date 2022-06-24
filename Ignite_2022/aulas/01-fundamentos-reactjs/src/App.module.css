@@ -4,7 +4,7 @@
     padding: 0 1rem; /* se diminuir a tela para menos que 70rem o conteudo não fica colado nas laterais, tem um espaçamento entre as laterais de 16px*/
     
     display: grid;
-    grid-template-columns: 256px 1fr;
-    gap: 2rem;
-    align-items: flex-start; /* */
+    grid-template-columns: 256px 1fr; /* especificao tamanho dascolunas tanto sidebaruanto do conteudo */
+    gap: 2rem; /* espaçamento entre as colunas */
+    align-items: flex-start; /* tenta alinhar sempre com o topo */
 }
