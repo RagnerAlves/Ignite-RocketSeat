@@ -1,0 +1,10 @@
+.wrapper {
+    max-width:  70rem; /* tamanho do box mais distanciamento da side-bar mais o tamanho da side-bar,usando rem, asoma total dividido por 16px */
+    margin: 2rem auto; /* margem 2rem encima e embaixo e auto, centralido na tela*/
+    padding: 0 1rem; /* se diminuir a tela para menos que 70rem o conteudo não fica colado nas laterais, tem um espaçamento entre as laterais de 16px*/
+    
+    display: grid;
+    grid-template-columns: 256px 1fr;
+    gap: 2rem;
+    align-items: flex-start; /* */
+}
