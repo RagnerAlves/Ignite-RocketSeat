@@ -19,7 +19,7 @@
 }
 
 .avatar{  /* tratando img do sidebar profile */
-    box-sizing: initial; /* faz com que quando adiciono bordar,outline em um elemento,ajuda a ocuparum espaço a mais*/
+    /* box-sizing: initial;  faz com que quando adiciono bordar,outline em um elemento,ajuda a ocuparum espaço a mais*/
     width: calc(3rem + 12px);
     height: calc(3rem + 12px);;
     border-radius: 8px;

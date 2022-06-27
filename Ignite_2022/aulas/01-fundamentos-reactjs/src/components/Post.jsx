@@ -15,11 +15,15 @@ export function Post() {
              <time title="27 de Junho as 08hrs13h" dateTime="27-06-2022 11:01:30">Publicado a 1hrs</time>
             </header>
 
-            <div classname={styles.content}>
+            <div className={styles.content}>
                 <p>Fala Galera</p>
                 <p>Acabei de subri mais um projeto pro meu portigolio</p>
-                <p> <a href="">jane.desgin/doctorcare</a></p>
-                <p> <a href=""></a>#novoprojeto #projeto #novo</p>
+                <p> {' '} <a href="">jane.desaign/doctorcare</a></p>
+                <p> 
+                    <a href="">#novoprojeto</a>{' '}
+                    <a href="">#projeto </a>{' '}
+                    <a href="">#novo</a>{' '}
+                </p>
             </div>
         </article>
     )
