@@ -1,3 +1,4 @@
+import { Comment } from './Comment';
 import styles from './Post.module.css';
 
 export function Post() {
@@ -5,7 +6,7 @@ export function Post() {
         <article className={styles.post}>
             <header>
              <div className={styles.author}>
-                <img classname={styles.avatar} src="https://github.com/RagnerAlves.png" />
+                <img className={styles.avatar} src="https://github.com/RagnerAlves.png" />
                 <div className={styles.authorInfo}>
                     <strong>Ragner Alves</strong>
                     <span>.NET Developer</span>
@@ -32,11 +33,18 @@ export function Post() {
                 <textarea
                     placeholder="Deixe seu comentario"
                 />
+
                 <footer>
                     <button type="submit">Publicar</button>
                 </footer>
+
             </form>
 
+            <div className={styles.commentList}>
+                <Comment />
+                <Comment />
+                <Comment />
+            </div>
         </article>
     )
 }

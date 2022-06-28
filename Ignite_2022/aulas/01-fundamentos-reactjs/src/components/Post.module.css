@@ -112,10 +112,12 @@
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.1s; /* passar o mouse por cima e trocar de cor*/
-
-  
 }
 
 .commentForm button[type=submit]:hover { /* cor de fundo do button no post*/
     background: var(--green-300); 
+}
+
+.commentList {
+    margin-top: 2rem;
 }
