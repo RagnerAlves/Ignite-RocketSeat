@@ -48,7 +48,7 @@
 
 .author img {
     width: calc(3rem + 12px);
-    height: calc(3rem + 12px);;
+    height: calc(3rem + 12px);
     border-radius: 8px;
     border: 4px solid var(--gray-800); /* cor da borda do img do profile (avatar)*/
     outline: 2px solid var(--green-500); /* cor da linha do lado de fora do profile (avatar) */
