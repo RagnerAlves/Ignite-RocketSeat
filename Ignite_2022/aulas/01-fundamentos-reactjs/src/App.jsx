@@ -16,23 +16,24 @@ const posts = [
     },
     content: [
       { type: 'paragraph', content: 'Fala Galera'},
-      { type: 'paragraph', content:'Acabei de subri mais um projeto pro meu portigolio'},
-      { type: 'paragraph', content:'jane.desaign/doctorcare'},     
+      { type: 'paragraph', content:'Acabei de subir mais um projeto pro meu portigolio'},
+      { type: 'link', content:'jane.desaign/doctorcare'}
     ],
     publishedAt: new Date('2022-07-05 2:27:45'),
   },
   {
     id: 2,
     author: {
-      avatarUrl: 'https://github.com/RagnerAlves.png',
+      avatarUrl: 'https://github.com/diego3g.png',
       name: 'Titio ',
       role: 'Educador'
   },
   content: [
     { type: 'paragraph', content: 'Fala Galera'},
-    { type: 'paragraph', content:'Acabei de subri mais um projeto pro meu portigolio'},
-    { type: 'paragraph', content:'jane.desaign/doctorcare'},     
+    { type: 'paragraph', content:'Acabei de subir mais um projeto pro meu portigolio'},
+    { type: 'link', content:'jane.desaign/doctorcare'}
   ],
+
   publishedAt: new Date('2022-07-04 2:27:45'),
 },
 
