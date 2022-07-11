@@ -13,9 +13,10 @@ export function Post({author, publishedAt, content}) {
 
     const [comments, setComments] = useState(
         [
-            1,
-            2,
+           'Post muito bacana'
         ])
+    
+    const [newCommentText, setNewCommentText] = useState('')
 
     const publishedDateFormatted = format(publishedAt, "d 'de' LLLL 'as' HH:mm'h'", 
     {
@@ -33,11 +34,15 @@ export function Post({author, publishedAt, content}) {
     {   
         event.preventDefault()
 
-        setComments([...comments, comments.length + 1]) //imutabilidade
+        setComments([...comments, newCommentText]) //imutabilidade. Tamah
 
-        console.log(Ccomments)
+        setNewCommentText('')
     }
 
+    function handleNewCommnetChange() 
+    {
+        setNewCommentText(event.target.value)
+    }
 
     return (
         <article className={styles.post}>
@@ -73,7 +78,10 @@ export function Post({author, publishedAt, content}) {
                 <strong>Deixe seu comentario</strong>
 
                 <textarea
+                    name="comment"
                     placeholder="Deixe seu comentario"
+                    value={newCommentText}
+                    onChange={handleNewCommnetChange}
                 />
 
                 <footer>
@@ -85,7 +93,7 @@ export function Post({author, publishedAt, content}) {
             <div className={styles.commentList}>
                 {comments.map(comment => 
                 {
-                    return <Comment />
+                    return <Comment content={comment}/>
                 })}
             </div>
         </article>
